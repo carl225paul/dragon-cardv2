@@ -1,0 +1,12 @@
+/* Fond d'écran site */
+body {
+    background-image: url("../../images/backgroundg.jpg");
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /* Fixe l’image en arrière-plan */
+    
+}
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Card Shop</title>
+    <link rel="stylesheet" href="css/sections/shop.css">  
+</head>
+<body>
+
+   
+    <div class="container"> <!-- Ma première grosse boite -->
+        <h1 class="title">Dragon Card Shop</h1>
+
+        <div class="carousel"> <!-- Boite n2 -->
+            <button id="prevCard">◀</button> 
+            
+            <div class="card"> <!-- Boite n3 -->
+                <img id="cardImage" src="images/shallot.jpg" alt="Carte actuelle">
+            </div>
+
+            <button id="nextCard">▶</button>
+        </div>
+
+        <div class="info"> <!-- Boite droite -->
+            <h2 id="cardName">SHALLOT CURSED</h2>
+            <p id="cardEdition" class="edition">limited edition</p>
+            
+            <div class="purchase-box">
+                <p>ACHETER MAINTENANT POUR</p>
+                <h3 id="cardPrice">695$</h3>
+                
+                <div class="buttons">
+                    <button id="sell">VENDRE</button>
+                    <button id="buy">ACHETER</button>
+                </div>
+
+                <p class="last-sale">DERNIÈRE VENTE: <span id="lastSale">1086$</span></p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
