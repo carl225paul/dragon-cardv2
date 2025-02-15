@@ -118,5 +118,18 @@
     }
 }  
 
+.header__button a{
+    text-decoration: none;
+    
+}
 
+.header__menu{
+    text-decoration: none;
+}
 
+.header__menu-mobile a {
+    text-decoration: none;
+}
+.delete__link a {
+    color: #fefefe;
+}

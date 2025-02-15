@@ -8,21 +8,61 @@
 </head>
 <body>
 
+    <header>
+        <nav class="header__nav">
+            <div class="header__logo"><a href="index.html">DRAGONCARD</div></a>
+            <div class="header__menu">
+                <button class="header__button">Tirages</button>
+                <button class="header__button">Cartes</button>
+                <button class="header__button">Mon Deck</button>
+                <button class="header__button">Acheter</button>
+            </div>
+            <div class="header__auth">
+                <button class="header__button">Connexion</button>
+                <button class="header__button">Inscription</button>
+            </div>
+
+            <div class="header__menu-mobile" onclick="toggleMenu()">
+                ☰
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <button class="header__button">Boutique</button>
+            <button class="header__button">Pack</button>
+            <button class="header__button">Pack</button>
+            <button class="header__button">Tirages</button>
+            <button class="header__button">Deck</button>
+            <button class="header__button">Connexion</button>
+            <button class="header__button">S'inscrire</button>
+        </div>
+
+    </header>
    
     <div class="container"> <!-- Ma première grosse boite -->
         <h1 class="title">Dragon Card Shop</h1>
 
-        <div class="carousel"> <!-- Boite n2 -->
-            <button id="prevCard">◀</button> 
-            
-            <div class="card"> <!-- Boite n3 -->
-                <img id="cardImage" src="images/shallot.jpg" alt="Carte actuelle">
+        <div class="carousel">
+            <div class="card-container">
+                <div class="card prev-card">
+                    <img id="prevCardImage" src="images/trunks.jpg" alt="Previous Card">
+                </div>
+                <div class="card current-card">
+                    <img id="currentCard" src="images/shallot.jpg" alt="Current Card">
+                </div>
+                <div class="card next-card">
+                    <img id="nextCardImage" src="images/buu.jpg" alt="Next Card">
+                </div>
             </div>
 
-            <button id="nextCard">▶</button>
+            <div class="carousel-buttons">
+                <button id="prevCard">◀</button>
+                <button id="nextCard">▶</button>
+            </div>
         </div>
+        
 
-        <div class="info"> <!-- Boite droite -->
+        <div class="info">
             <h2 id="cardName">SHALLOT CURSED</h2>
             <p id="cardEdition" class="edition">limited edition</p>
             
@@ -39,8 +79,8 @@
             </div>
         </div>
     </div>
-    
 
     <script src="script.js"></script>
 </body>
 </html>
+<a href=""></a>
